@@ -1,0 +1,7 @@
+#!pip --version
+#!pip install pyttsx3
+# Text to speech 
+import pyttsx3
+engine =pyttsx3.init()
+engine.say("Hello World , This is a project -Text to speech, And This project is created By Keerti Gupta ,little more about her,  that She is an  Student at ABES Engineering college  of information technology branch ,in journey to become a java or java script developer ,and  She also Learning 4 programming languages and problem solving skills and  expanding her knowledge further., She Interested in Machine learning ,web development ,robotics, system design .,! It is sample of her project , Thanks ! and stay tuned :) ")
+engine.runAndWait()
